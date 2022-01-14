@@ -19,7 +19,7 @@ users: []
   return (
     <div className="App">
     {this.state.users.map(users=>
-    <div key={users.id}>
+    <div key={users.id} className='card'>
     <h3>{users.name}</h3>
     <p><span>e-mail  </span>{users.email}</p>
     <p><span>Address  </span>{users.address.city}</p>
